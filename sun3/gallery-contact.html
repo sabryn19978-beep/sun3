@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الصور والتواصل | شمس نيل</title>
+  <meta name="description" content="إطلالات شمس نيل، الأسئلة الشائعة، وطرق التواصل والحجز في جدة حي الفيحاء.">
+  <script>
+    try {
+      if (localStorage.getItem("sun-nail-language") === "en") {
+        document.documentElement.lang = "en";
+        document.documentElement.dir = "ltr";
+      }
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Sun Nail">
+        <span class="logo-mark" aria-hidden="true">✺</span>
+        <span class="logo-text">
+          <span class="logo-ar" data-ar="شمس نيل" data-en="Sun Nail">شمس نيل</span>
+          <span class="logo-en">Sun Nail</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="mainNav" data-ar-label="القائمة الرئيسية" data-en-label="Main navigation" aria-label="القائمة الرئيسية">
+        <a href="index.html" class="nav-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+        <a href="services.html" class="nav-link" data-ar="الخدمات والأسعار" data-en="Services &amp; Prices">الخدمات والأسعار</a>
+        <a href="gallery-contact.html" class="nav-link active" data-ar="الصور والتواصل" data-en="Gallery &amp; Contact" aria-current="page">الصور والتواصل</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-ar-label="اللغة" data-en-label="Language" aria-label="اللغة">
+          <button type="button" class="lang-btn active" data-lang="ar" aria-pressed="true">عربي</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" class="menu-toggle" id="menuToggle" data-ar-label="فتح القائمة" data-en-label="Open menu" aria-label="فتح القائمة" aria-controls="mainNav" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Gallery -->
+    <section class="section" style="padding-block-start: 26px;">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-ar="لمسات من شمس نيل" data-en="Touches from Sun Nail">لمسات من شمس نيل</span>
+          <h1 class="section-title" data-ar="إطلالات شمس نيل" data-en="Sun Nail Looks">إطلالات شمس نيل</h1>
+          <p class="section-text" data-ar="الصور تتكلم؛ تصفحي أعمالنا واضغطي على أي صورة لتكبيرها." data-en="Pictures speak for themselves. Browse our work and click any image to enlarge it.">الصور تتكلم؛ تصفحي أعمالنا واضغطي على أي صورة لتكبيرها.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-1.jpg" alt="إطلالة أظافر بلمسة شمس نيل" data-ar-alt="إطلالة أظافر بلمسة شمس نيل" data-en-alt="Nail look with the Sun Nail touch" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-2.jpg" alt="أظافر بلون موفي ناعم" data-ar-alt="أظافر بلون موفي ناعم" data-en-alt="Soft mauve nails" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-3.jpg" alt="لمسة فرنسية أنيقة" data-ar-alt="لمسة فرنسية أنيقة" data-en-alt="An elegant French touch" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-4.jpg" alt="أظافر سوفت جل طويلة" data-ar-alt="أظافر سوفت جل طويلة" data-en-alt="Long soft gel nails" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-5.jpg" alt="لون جل لامع" data-ar-alt="لون جل لامع" data-en-alt="Glossy gel color" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-6.jpg" alt="تدرج لوني اومبريه" data-ar-alt="تدرج لوني اومبريه" data-en-alt="Ombre gradient nails" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-7.jpg" alt="أظافر مرتبة بعناية" data-ar-alt="أظافر مرتبة بعناية" data-en-alt="Neatly shaped nails" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-8.jpg" alt="إطلالة يومية بسيطة" data-ar-alt="إطلالة يومية بسيطة" data-en-alt="A simple everyday look" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-9.jpg" alt="جلسة جيلي كريستال سبا" data-ar-alt="جلسة جيلي كريستال سبا" data-en-alt="Crystal jelly spa session" loading="lazy">
+          </button>
+          <button type="button" class="gallery-item" data-ar-label="عرض الصورة" data-en-label="View image" aria-label="عرض الصورة">
+            <img src="images/nail-10.jpg" alt="لمسة شمس نيل المميزة" data-ar-alt="لمسة شمس نيل المميزة" data-en-alt="The signature Sun Nail touch" loading="lazy">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-ar="كل ما تحتاجين معرفته" data-en="Everything you need to know">كل ما تحتاجين معرفته</span>
+          <h2 class="section-title" data-ar="الأسئلة الشائعة" data-en="Frequently Asked Questions">الأسئلة الشائعة</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-ar="هل يتم تعقيم الأدوات بين كل عميلة؟" data-en="Are the tools sterilized between clients?">هل يتم تعقيم الأدوات بين كل عميلة؟</summary>
+            <p class="faq-answer" data-ar="نعم، نعقّم جميع الأدوات بعناية قبل كل جلسة وبعدها، حرصاً على سلامتك وراحتك." data-en="Yes. All tools are carefully sterilized before and after every session for your safety and comfort.">نعم، نعقّم جميع الأدوات بعناية قبل كل جلسة وبعدها، حرصاً على سلامتك وراحتك.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-ar="كم تستغرق الجلسة عادةً؟" data-en="How long does a session usually take?">كم تستغرق الجلسة عادةً؟</summary>
+            <p class="faq-answer" data-ar="بحسب نوع الخدمة؛ عادةً بين 45 إلى 90 دقيقة، ويمكنك اختيار الوقت المناسب لك عند الحجز." data-en="It depends on the service — usually between 45 and 90 minutes. You can choose a time that suits you when booking.">بحسب نوع الخدمة؛ عادةً بين 45 إلى 90 دقيقة، ويمكنك اختيار الوقت المناسب لك عند الحجز.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-ar="هل يمكنني الحجز عبر واتساب؟" data-en="Can I book through WhatsApp?">هل يمكنني الحجز عبر واتساب؟</summary>
+            <p class="faq-answer" data-ar="بالتأكيد! أرسلي لنا رسالة على واتساب باسم الخدمة التي تريدينها، وسنرد عليك بتأكيد الموعد." data-en="Absolutely! Send us a WhatsApp message with the service you want and we will confirm your appointment.">بالتأكيد! أرسلي لنا رسالة على واتساب باسم الخدمة التي تريدينها، وسنرد عليك بتأكيد الموعد.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-ar="أين يقع الصالون؟" data-en="Where is the salon located?">أين يقع الصالون؟</summary>
+            <p class="faq-answer" data-ar="نحن في جدة — حي الفيحاء، ويمكنك فتح الموقع على الخريطة من قسم التواصل أدناه." data-en="We are in Jeddah — Al Faihaa District. You can open the map from the contact section below.">نحن في جدة — حي الفيحاء، ويمكنك فتح الموقع على الخريطة من قسم التواصل أدناه.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-ar="يسعدنا تواصلك" data-en="We'd love to hear from you">يسعدنا تواصلك</span>
+          <h2 class="section-title" data-ar="تواصلي معنا" data-en="Get in Touch">تواصلي معنا</h2>
+          <p class="section-text" data-ar="اختاري الطريقة الأنسب لك للحجز أو الاستفسار، ونحن هنا لمساعدتك." data-en="Choose the easiest way to book or ask a question — we are here to help.">اختاري الطريقة الأنسب لك للحجز أو الاستفسار، ونحن هنا لمساعدتك.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <span class="contact-icon" aria-hidden="true">✺</span>
+            <h3 data-ar="واتساب الحجز الفوري" data-en="Instant Booking on WhatsApp">واتساب الحجز الفوري</h3>
+            <p data-ar="أرسلي اسم الخدمة المفضلة وسيتم تأكيد موعدك بسرعة." data-en="Send us your preferred service and your appointment will be confirmed quickly.">أرسلي اسم الخدمة المفضلة وسيتم تأكيد موعدك بسرعة.</p>
+            <a href="https://wa.me/966571828519?text=" class="btn btn-small btn-sun" data-ar="ابدأي المحادثة" data-en="Start Chat" data-wa-ar="مرحباً شمس نيل، أود حجز موعد." data-wa-en="Hi Sun Nail, I would like to book an appointment.">ابدأي المحادثة</a>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-icon" aria-hidden="true">☎</span>
+            <h3 data-ar="اتصال مباشر" data-en="Direct Call">اتصال مباشر</h3>
+            <p data-ar="للاستفسار أو ترتيب موعدك مباشرة:" data-en="For questions or to arrange an appointment directly:">للاستفسار أو ترتيب موعدك مباشرة:</p>
+            <a href="tel:0571828519" dir="ltr">0571828519</a>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-icon" aria-hidden="true">✧</span>
+            <h3 data-ar="موقعنا" data-en="Our Location">موقعنا</h3>
+            <p data-ar="جدة - حي الفيحاء" data-en="Jeddah - Al Faihaa District">جدة - حي الفيحاء</p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%D8%AD%D9%8A%20%D8%A7%D9%84%D9%81%D9%8A%D8%AD%D8%A7%D8%A1%2C%20%D8%AC%D8%AF%D8%A9"
+               target="_blank" rel="noopener noreferrer"
+               data-ar="افتح الموقع على خرائط جوجل ↗" data-en="Open in Google Maps ↗">افتح الموقع على خرائط جوجل ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" data-ar-label="عرض الصورة" data-en-label="Image preview" aria-label="عرض الصورة">
+    <button type="button" class="lightbox-btn lightbox-close" data-ar-label="إغلاق" data-en-label="Close" aria-label="إغلاق">×</button>
+    <button type="button" class="lightbox-btn lightbox-prev" data-ar-label="الصورة السابقة" data-en-label="Previous image" aria-label="الصورة السابقة">‹</button>
+    <figure>
+      <img class="lightbox-img" alt="">
+      <figcaption class="lightbox-caption"></figcaption>
+    </figure>
+    <button type="button" class="lightbox-btn lightbox-next" data-ar-label="الصورة التالية" data-en-label="Next image" aria-label="الصورة التالية">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">✺ <span data-ar="شمس نيل" data-en="Sun Nail">شمس نيل</span></div>
+      <div class="footer-links">
+        <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+        <a href="services.html" data-ar="الخدمات والأسعار" data-en="Services &amp; Prices">الخدمات والأسعار</a>
+        <a href="gallery-contact.html" data-ar="الصور والتواصل" data-en="Gallery &amp; Contact">الصور والتواصل</a>
+      </div>
+      <div data-ar="© 2026 شمس نيل. كل الحقوق محفوظة." data-en="© 2026 Sun Nail. All rights reserved.">© 2026 شمس نيل. كل الحقوق محفوظة.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

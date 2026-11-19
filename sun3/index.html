@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شمس نيل | Sun Nail</title>
+  <meta name="description" content="شمس نيل — صالون أظافر في جدة، حي الفيحاء. خدمات أظافر، تركيبات وألوان بلمسة شمسية دافئة.">
+  <script>
+    /* Apply the saved direction before styles load to avoid any RTL/LTR flash. */
+    try {
+      if (localStorage.getItem("sun-nail-language") === "en") {
+        document.documentElement.lang = "en";
+        document.documentElement.dir = "ltr";
+      }
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Sun Nail">
+        <span class="logo-mark" aria-hidden="true">✺</span>
+        <span class="logo-text">
+          <span class="logo-ar" data-ar="شمس نيل" data-en="Sun Nail">شمس نيل</span>
+          <span class="logo-en">Sun Nail</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="mainNav" data-ar-label="القائمة الرئيسية" data-en-label="Main navigation" aria-label="القائمة الرئيسية">
+        <a href="index.html" class="nav-link active" data-ar="الرئيسية" data-en="Home" aria-current="page">الرئيسية</a>
+        <a href="services.html" class="nav-link" data-ar="الخدمات والأسعار" data-en="Services &amp; Prices">الخدمات والأسعار</a>
+        <a href="gallery-contact.html" class="nav-link" data-ar="الصور والتواصل" data-en="Gallery &amp; Contact">الصور والتواصل</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" data-ar-label="اللغة" data-en-label="Language" aria-label="اللغة">
+          <button type="button" class="lang-btn active" data-lang="ar" aria-pressed="true">عربي</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" class="menu-toggle" id="menuToggle" data-ar-label="فتح القائمة" data-en-label="Open menu" aria-label="فتح القائمة" aria-controls="mainNav" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Welcome -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow" data-ar="صالون أظافر في جدة" data-en="A nail salon in Jeddah">صالون أظافر في جدة</span>
+          <h1 class="hero-title" data-ar="إشراقة أظافرك تبدأ من هنا ✺" data-en="Your Nails, Your Glow">إشراقة أظافرك تبدأ من هنا ✺</h1>
+          <p class="hero-subtitle" data-ar="Your Nails, Your Glow" data-en="إشراقة أظافرك تبدأ من هنا ✺">Your Nails, Your Glow</p>
+          <p class="hero-desc" data-ar="هنا تلتقي العناية الدقيقة بالذوق الرفيع؛ اكتقي أظافرك بلمسة تليق بأناقتك، واستمتعي بتجربة هادئة مليئة بالدفء." data-en="Here, precise care meets refined taste. Treat your nails to a touch worthy of your elegance and enjoy a calm, warm experience.">هنا تلتقي العناية الدقيقة بالذوق الرفيع؛ اكتقي أظافرك بلمسة تليق بأناقتك، واستمتعي بتجربة هادئة مليئة بالدفء.</p>
+          <div class="hero-actions">
+            <a href="services.html" class="btn btn-primary" data-ar="استكشفي الأسعار" data-en="Explore Prices">استكشفي الأسعار</a>
+            <a href="https://wa.me/966571828519?text=" class="btn btn-sun"
+               data-ar="احجزي واتساب" data-en="Book on WhatsApp"
+               data-wa-ar="مرحباً شمس نيل، أود حجز موعد." data-wa-en="Hi Sun Nail, I would like to book an appointment.">احجزي واتساب</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="images/nail-1.jpg" alt="أظافر أنيقة من شمس نيل"
+               data-ar-alt="إطلالة أظافر أنيقة في شمس نيل" data-en-alt="An elegant nail look at Sun Nail">
+          <span class="hero-badge" data-ar="✺ لمسة شمس نيل" data-en="✺ The Sun Nail touch">✺ لمسة شمس نيل</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about-wrap">
+        <div class="about-copy">
+          <span class="eyebrow" data-ar="عن الصالون" data-en="About the Salon">عن الصالون</span>
+          <h2 class="section-title" data-ar="أناقتك تبدأ من التفاصيل" data-en="Your elegance starts with the details">أناقتك تبدأ من التفاصيل</h2>
+          <p class="about-quote" data-ar="في شمس نيل نؤمن بأن الأظافر ليست مجرد تفصيل — هي تعبير عن أناقتك" data-en="At Sun Nail, we believe nails are not just a detail — they are an expression of your elegance">في شمس نيل نؤمن بأن الأظافر ليست مجرد تفصيل — هي تعبير عن أناقتك</p>
+          <p data-ar="نعتني بكل خطوة، من تحضير الأظافر إلى اللمسة الأخيرة، لنمنحك إطلالة تشعرين معها بالثقة والراحة في آن واحد." data-en="We care about every step, from preparing your nails to the final touch, so you leave feeling both confident and comfortable.">نعتني بكل خطوة، من تحضير الأظافر إلى اللمسة الأخيرة، لنمنحك إطلالة تشعرين معها بالثقة والراحة في آن واحد.</p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">✧</span>
+            <div>
+              <h3 data-ar="تعقيم شامل" data-en="Full Sterilization">تعقيم شامل</h3>
+              <p data-ar="أدوات معقّمة بكامل العناية قبل كل عميلة وبعدها." data-en="Tools thoroughly sterilized before and after every client.">أدوات معقّمة بكامل العناية قبل كل عميلة وبعدها.</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">✺</span>
+            <div>
+              <h3 data-ar="اهتمام بكل تفصيل" data-en="Attention to Every Detail">اهتمام بكل تفصيل</h3>
+              <p data-ar="دقة في التشكيل والألوان، ولمسة ختامية تليق بذوقك." data-en="Precision in shaping and color, finished with a touch that suits your taste.">دقة في التشكيل والألوان، ولمسة ختامية تليق بذوقك.</p>
+            </div>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">♡</span>
+            <div>
+              <h3 data-ar="تجربة مريحة" data-en="A Relaxing Experience">تجربة مريحة</h3>
+              <p data-ar="جلسة هادئة وودودة، ووقت مخصص لك وحدك." data-en="A calm, friendly session with time dedicated just to you.">جلسة هادئة وودودة، ووقت مخصص لك وحدك.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Moving ribbon -->
+    <div class="marquee">
+      <div class="marquee-track">
+        <span data-ar="أظافرك تحكي أناقتك ✺ لمسة شمس نيل تفرق ✺" data-en="Your nails tell your elegance ✺ The Sun Nail touch makes a difference ✺">أظافرك تحكي أناقتك ✺ لمسة شمس نيل تفرق ✺</span>
+        <span data-ar="أظافرك تحكي أناقتك ✺ لمسة شمس نيل تفرق ✺" data-en="Your nails tell your elegance ✺ The Sun Nail touch makes a difference ✺">أظافرك تحكي أناقتك ✺ لمسة شمس نيل تفرق ✺</span>
+      </div>
+    </div>
+
+    <!-- Top services preview -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-ar="اختياراتك المفضلة" data-en="Favorite Picks">اختياراتك المفضلة</span>
+          <h2 class="section-title" data-ar="أبرز خدماتنا" data-en="Our Signature Services">أبرز خدماتنا</h2>
+          <p class="section-text" data-ar="قائمة مختارة من أكثر الخدمات طلباً، وكلها بنفس اللمسة الشمسية التي تحبينها." data-en="A selected list of our most requested services, all with the same sunny touch you love.">قائمة مختارة من أكثر الخدمات طلباً، وكلها بنفس اللمسة الشمسية التي تحبينها.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <img src="images/nail-4.jpg" alt="أظافر سوفت جل" data-ar-alt="أظافر سوفت جل طويلة" data-en-alt="Long soft gel nails">
+            <div class="service-card-body">
+              <span class="service-card-tag" data-ar="الأكثر طلباً" data-en="Most requested">الأكثر طلباً</span>
+              <h3 data-ar="أظافر سوفت جل طويل" data-en="Long Soft Gel Nails">أظافر سوفت جل طويل</h3>
+              <p data-ar="إطلالة أنيقة تدوم معك طويلاً." data-en="An elegant look that lasts.">إطلالة أنيقة تدوم معك طويلاً.</p>
+              <div class="service-card-foot">
+                <span class="card-price" data-ar="45 ر.س" data-en="45 SAR">45 ر.س</span>
+                <a href="https://wa.me/966571828519?text=" class="btn btn-small btn-outline" data-ar="احجز" data-en="Book" data-wa-ar="مرحباً شمس نيل، أود حجز خدمة: أظافر سوفت جل طويل" data-wa-en="Hi Sun Nail, I would like to book: Long Soft Gel Nails">احجز</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="images/nail-6.jpg" alt="لون جل" data-ar-alt="أظافر بلون جل لامع" data-en-alt="Glossy gel color nails">
+            <div class="service-card-body">
+              <span class="service-card-tag" data-ar="لمسة لون" data-en="Color touch">لمسة لون</span>
+              <h3 data-ar="لون جل" data-en="Gel Color">لون جل</h3>
+              <p data-ar="لمعان ناعم وثبات يليق بكل يوم." data-en="Soft shine and lasting wear for every day.">لمعان ناعم وثبات يليق بكل يوم.</p>
+              <div class="service-card-foot">
+                <span class="card-price" data-ar="45 ر.س" data-en="45 SAR">45 ر.س</span>
+                <a href="https://wa.me/966571828519?text=" class="btn btn-small btn-outline" data-ar="احجز" data-en="Book" data-wa-ar="مرحباً شمس نيل، أود حجز خدمة: لون جل" data-wa-en="Hi Sun Nail, I would like to book: Gel Color">احجز</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <img src="images/nail-9.jpg" alt="جيلي كريستال سبا" data-ar-alt="جلسة جيلي كريستال سبا للأظافر" data-en-alt="Crystal jelly spa nail session">
+            <div class="service-card-body">
+              <span class="service-card-tag" data-ar="استرخاء" data-en="Relaxation">استرخاء</span>
+              <h3 data-ar="جيلي كريستال سبا" data-en="Crystal Jelly Spa">جيلي كريستال سبا</h3>
+              <p data-ar="تجربة عناية لطيفة تمنحك انتعاشاً وهدوءاً." data-en="A gentle care experience that leaves you refreshed and calm.">تجربة عناية لطيفة تمنحك انتعاشاً وهدوءاً.</p>
+              <div class="service-card-foot">
+                <span class="card-price" data-ar="40 ر.س" data-en="40 SAR">40 ر.س</span>
+                <a href="https://wa.me/966571828519?text=" class="btn btn-small btn-outline" data-ar="احجز" data-en="Book" data-wa-ar="مرحباً شمس نيل، أود حجز خدمة: جيلي كريستال سبا" data-wa-en="Hi Sun Nail, I would like to book: Crystal Jelly Spa">احجز</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-action">
+          <a href="services.html" class="btn btn-primary" data-ar="شاهد كل الخدمات والأسعار" data-en="See All Services &amp; Prices">شاهد كل الخدمات والأسعار</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">✺ <span data-ar="شمس نيل" data-en="Sun Nail">شمس نيل</span></div>
+      <div class="footer-links">
+        <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+        <a href="services.html" data-ar="الخدمات والأسعار" data-en="Services &amp; Prices">الخدمات والأسعار</a>
+        <a href="gallery-contact.html" data-ar="الصور والتواصل" data-en="Gallery &amp; Contact">الصور والتواصل</a>
+      </div>
+      <div data-ar="© 2026 شمس نيل. كل الحقوق محفوظة." data-en="© 2026 Sun Nail. All rights reserved.">© 2026 شمس نيل. كل الحقوق محفوظة.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
